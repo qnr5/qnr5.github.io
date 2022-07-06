@@ -6,4 +6,4 @@ categories: Info
 
 Welcome!
 
-Only solve big problems, others will pay you.
+Only solve big problems, will they pay you.
