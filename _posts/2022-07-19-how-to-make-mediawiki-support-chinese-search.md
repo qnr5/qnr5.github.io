@@ -1,3 +1,6 @@
+---
+title: 如何让mediawiki支持中文检索
+---
 假设你有一个网站example.com，它是你建立的一个mediawiki站点。当你建立好example.com之后，创建了许多内容，站内搜索自己的内容时，你会发现搜英文效果不错，但搜中文效果不好。那在安装自己的mediawiki站点之后，如何让它对站内中文检索的效果更好一些呢？
 
 其实方法就是安装CirrusSearch这个扩展。安装此扩展，若细心地按照[官方wiki](https://www.mediawiki.org/wiki/Extension:CirrusSearch)一步步来，就不会出错。但踩坑往往在一瞬间，最容易踩坑的，就是在依赖安装时，少安装了。

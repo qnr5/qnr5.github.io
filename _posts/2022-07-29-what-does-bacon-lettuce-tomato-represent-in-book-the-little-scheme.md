@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "The Little Scheme 中 bacon lettuce tomato 代表什么"
-categories: Scheme
+categories: lisp
 ---
 
 在《The Little Scheme》中，(bacon lettuce tomato)到底代表什么，把我绕得够晕，总算在最清醒的时候，给琢磨透了。

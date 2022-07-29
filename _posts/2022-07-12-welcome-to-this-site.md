@@ -1,7 +1,6 @@
 ---
-layout: post
 title: "Welcome to this site!"
-categories: Info
+categories: info
 ---
 
 Welcome!
