@@ -47,4 +47,18 @@ when lat (and tomato)
 
 (bacon lettuce tomato)代表lat为(bacon lettuce and tomato)时，F1=bacon+F2的值。
 
+<pre>
+I. either
+    1. cons lettuce onto (tomato)
+    2. cons bacon onto the value of 1
+II. or
+    1. cons bacon onto the value of 2
+    2. cons lettuce onto the value of 3
+    3. (tomato)
+III. or
+    cons bacon onto
+        the cons of lettuce onto
+            (tomato)
+</pre>
+
 找到某种特定形式作为记号，可以方便理解教程的逻辑。
