@@ -16,6 +16,7 @@ title: 一段scheme代码，检验两个list是否相同
      (else (and (teqan? (car l1) (car l2)) (teqan? (cdr l1) (cdr l2)))))))
 ```
 ```scheme
+;; 测试用例，皆通过
 (teqan? '(a 1 (x y) *)
         '(a 1 (x y) *)) ;#t
 
@@ -37,12 +38,9 @@ title: 一段scheme代码，检验两个list是否相同
 (teqan? '(一 去 二 三 里)
         '(烟 村 四 五 家)) ;#f
 ```
-;; 以上为测试用例，测试皆通过
-
 
 ```scheme
-;; code in book the_little_schemer
-
+;; code in the book the_little_schemer
 (define eqan?
   (lambda (a1 a2)
     (cond
@@ -76,24 +74,25 @@ title: 一段scheme代码，检验两个list是否相同
            (eqlist? (cdr l1) (cdr l2)))))))
 ```
 ```scheme
+;; 测试用例，皆通过
 (eqlist? '(a 1 (x y) *)
-        '(a 1 (x y) *)) ;#t
+         '(a 1 (x y) *)) ;#t
 
 (eqlist? '(a 1 (x y))
-        '(a 1 *)) ;#f
+         '(a 1 *)) ;#f
 
 (eqlist? '()
-        '(123)) ;#f
+         '(123)) ;#f
 
 (eqlist? '(ab (c d (ef) gh) i)
-        '(ab (c d (ef) gh) i)) ;#t
+         '(ab (c d (ef) gh) i)) ;#t
 
 (eqlist? '(ab (c d (ef gh) i))
-        '(some (noodle rice (cola spirits) water))) ;#f
+         '(some (noodle rice (cola spirits) water))) ;#f
 
 (eqlist? '(天 時 (地 (利)) (ren he))
-        '(天 時 (地 (利)) (ren he))) ;#t
+         '(天 時 (地 (利)) (ren he))) ;#t
 
 (eqlist? '(一 去 二 三 里)
-        '(烟 村 四 五 家)) ;#f
+         '(烟 村 四 五 家)) ;#f
 ```
