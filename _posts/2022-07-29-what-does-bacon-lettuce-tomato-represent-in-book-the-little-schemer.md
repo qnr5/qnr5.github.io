@@ -1,5 +1,5 @@
 ---
-title: "The Little Scheme 中 bacon lettuce tomato 代表什么"
+title: "The Little Schemer 中 bacon lettuce tomato 代表什么"
 categories: lisp
 ---
 

@@ -50,7 +50,7 @@ title: 一段scheme代码，求数字表达式的值
       (×  (qvalue (t-1st-sub-exp nexp)) (qvalue (t-2nd-sub-exp nexp))))
      (else
       (↑ (qvalue (t-1st-sub-exp nexp)) (qvalue (t-2nd-sub-exp nexp)))))))
-(qvalue '(o+ 3 (× 5 (↑ 3 2))))
-;; Exception in zero?: o+ is not a number
+(qvalue '(+ 3 (× 5 (↑ 3 2))))
+;; Exception in +: + is not a number
 ```
 《The Little Schemer》 (page 106) 书中示例如上，似乎并未实现求值的能力。可能接下来的章节还有后续修改，暂时记一笔疑惑。
